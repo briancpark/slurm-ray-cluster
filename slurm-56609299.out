@@ -1,0 +1,151 @@
+IP Head: 10.128.10.63:6379
+STARTING HEAD at nid02602
+starting ray head node
+STARTING WORKER 1 at nid02603
+2022-03-23 21:32:41,862	INFO services.py:1414 -- View the Ray dashboard at [1m[32mhttp://127.0.0.1:8265[39m[22m
+STARTING WORKER 2 at nid02604
+2022-03-23 21:32:26,607	INFO scripts.py:600 -- [37mLocal node IP[39m: [1m10.128.10.63[22m
+2022-03-23 21:32:43,630	SUCC scripts.py:640 -- [32m--------------------[39m
+2022-03-23 21:32:43,630	SUCC scripts.py:641 -- [32mRay runtime started.[39m
+2022-03-23 21:32:43,630	SUCC scripts.py:642 -- [32m--------------------[39m
+2022-03-23 21:32:43,631	INFO scripts.py:644 -- [36mNext steps[39m
+2022-03-23 21:32:43,631	INFO scripts.py:646 -- To connect to this Ray runtime from another node, run
+2022-03-23 21:32:43,631	INFO scripts.py:652 -- [1m  ray start --address='10.128.10.63:6379' --redis-password='225d3527-d678-4230-9296-224b38fdd9c6'[22m
+2022-03-23 21:32:43,632	INFO scripts.py:654 -- Alternatively, use the following Python code:
+2022-03-23 21:32:43,632	INFO scripts.py:656 -- [35mimport[39m[26m ray
+2022-03-23 21:32:43,633	INFO scripts.py:668 -- ray[35m.[39m[26minit(address[35m=[39m[26m[33m'auto'[39m[26m, _redis_password[35m=[39m[26m[33m'225d3527-d678-4230-9296-224b38fdd9c6'[39m[26m, _node_ip_address[35m=[39m[26m[33m'10.128.10.63'[39m[26m)
+2022-03-23 21:32:43,633	INFO scripts.py:670 -- To connect to this Ray runtime from outside of the cluster, for example to
+2022-03-23 21:32:43,633	INFO scripts.py:672 -- connect to a remote cluster from your laptop directly, use the following
+2022-03-23 21:32:43,634	INFO scripts.py:674 -- Python code:
+2022-03-23 21:32:43,634	INFO scripts.py:676 -- [35mimport[39m[26m ray
+2022-03-23 21:32:43,634	INFO scripts.py:679 -- ray[35m.[39m[26minit(address[35m=[39m[26m[33m'ray://<head_node_ip_address>:10001'[39m[26m)
+2022-03-23 21:32:43,635	INFO scripts.py:683 -- [4mIf connection fails, check your firewall settings and network configuration.[24m
+2022-03-23 21:32:43,635	INFO scripts.py:687 -- To terminate the Ray runtime, run
+2022-03-23 21:32:43,635	INFO scripts.py:688 -- [1m  ray stop[22m
+starting ray worker node
+STARTING WORKER 3 at nid02605
+starting ray worker node
+STARTING WORKER 4 at nid02606
+starting ray worker node
+2022-03-23 21:32:53,975	INFO scripts.py:740 -- [37mLocal node IP[39m: [1m10.128.10.64[22m
+2022-03-23 21:32:56,574	SUCC scripts.py:751 -- [32m--------------------[39m
+2022-03-23 21:32:56,575	SUCC scripts.py:752 -- [32mRay runtime started.[39m
+2022-03-23 21:32:56,575	SUCC scripts.py:753 -- [32m--------------------[39m
+2022-03-23 21:32:56,575	INFO scripts.py:755 -- To terminate the Ray runtime, run
+2022-03-23 21:32:56,575	INFO scripts.py:756 -- [1m  ray stop[22m
+starting ray worker node
+2022-03-23 21:33:00,666	INFO scripts.py:740 -- [37mLocal node IP[39m: [1m10.128.10.65[22m
+2022-03-23 21:33:03,209	SUCC scripts.py:751 -- [32m--------------------[39m
+2022-03-23 21:33:03,209	SUCC scripts.py:752 -- [32mRay runtime started.[39m
+2022-03-23 21:33:03,210	SUCC scripts.py:753 -- [32m--------------------[39m
+2022-03-23 21:33:03,210	INFO scripts.py:755 -- To terminate the Ray runtime, run
+2022-03-23 21:33:03,210	INFO scripts.py:756 -- [1m  ray stop[22m
+2022-03-23 21:33:03,437	INFO scripts.py:740 -- [37mLocal node IP[39m: [1m10.128.10.66[22m
+2022-03-23 21:33:05,945	SUCC scripts.py:751 -- [32m--------------------[39m
+2022-03-23 21:33:05,946	SUCC scripts.py:752 -- [32mRay runtime started.[39m
+2022-03-23 21:33:05,946	SUCC scripts.py:753 -- [32m--------------------[39m
+2022-03-23 21:33:05,946	INFO scripts.py:755 -- To terminate the Ray runtime, run
+2022-03-23 21:33:05,947	INFO scripts.py:756 -- [1m  ray stop[22m
+2022-03-23 21:33:08,329	INFO scripts.py:740 -- [37mLocal node IP[39m: [1m10.128.10.67[22m
+2022-03-23 21:33:10,729	SUCC scripts.py:751 -- [32m--------------------[39m
+2022-03-23 21:33:10,729	SUCC scripts.py:752 -- [32mRay runtime started.[39m
+2022-03-23 21:33:10,730	SUCC scripts.py:753 -- [32m--------------------[39m
+2022-03-23 21:33:10,730	INFO scripts.py:755 -- To terminate the Ray runtime, run
+2022-03-23 21:33:10,730	INFO scripts.py:756 -- [1m  ray stop[22m
+Running NumS benchmark for ray.
+Is NumS using head node?: False
+10.128.10.63:6379 225d3527-d678-4230-9296-224b38fdd9c6
+number of ray nodes: 5
+[{'NodeID': 'ee482d944a3189c53206f11da0c81fb592e07161da98dcc53d95b40b', 'Alive': True, 'NodeManagerAddress': '10.128.10.64', 'NodeManagerHostname': 'nid02603', 'NodeManagerPort': 43207, 'ObjectManagerPort': 42423, 'ObjectStoreSocketName': '/global/cscratch1/sd/bcp/ray/session_2022-03-23_21-32-27_439446_203970/sockets/plasma_store.1', 'RayletSocketName': '/global/cscratch1/sd/bcp/ray/session_2022-03-23_21-32-27_439446_203970/sockets/raylet.1', 'MetricsExportPort': 58941, 'alive': True, 'Resources': {'CPU': 32.0, 'object_store_memory': 40000000000.0, 'memory': 58055528448.0, 'node:10.128.10.64': 1.0}}, {'NodeID': '75bffd0cc9e4f00da6162d3af2220d5042cbefa4d81b244cd3350b5b', 'Alive': True, 'NodeManagerAddress': '10.128.10.66', 'NodeManagerHostname': 'nid02605', 'NodeManagerPort': 40237, 'ObjectManagerPort': 40529, 'ObjectStoreSocketName': '/global/cscratch1/sd/bcp/ray/session_2022-03-23_21-32-27_439446_203970/sockets/plasma_store.3', 'RayletSocketName': '/global/cscratch1/sd/bcp/ray/session_2022-03-23_21-32-27_439446_203970/sockets/raylet.3', 'MetricsExportPort': 58692, 'alive': True, 'Resources': {'CPU': 32.0, 'object_store_memory': 40000000000.0, 'node:10.128.10.66': 1.0, 'memory': 58079166464.0}}, {'NodeID': '6ac6737c199af949f36856c7fe23a2461e2c751bc796340359f43c9d', 'Alive': True, 'NodeManagerAddress': '10.128.10.67', 'NodeManagerHostname': 'nid02606', 'NodeManagerPort': 41735, 'ObjectManagerPort': 44827, 'ObjectStoreSocketName': '/global/cscratch1/sd/bcp/ray/session_2022-03-23_21-32-27_439446_203970/sockets/plasma_store.4', 'RayletSocketName': '/global/cscratch1/sd/bcp/ray/session_2022-03-23_21-32-27_439446_203970/sockets/raylet.4', 'MetricsExportPort': 53473, 'alive': True, 'Resources': {'CPU': 32.0, 'memory': 58016739328.0, 'node:10.128.10.67': 1.0, 'object_store_memory': 40000000000.0}}, {'NodeID': '8a22076b745378470d6d2d516d06e586e25f0edb2884b4b119472b91', 'Alive': True, 'NodeManagerAddress': '10.128.10.65', 'NodeManagerHostname': 'nid02604', 'NodeManagerPort': 35059, 'ObjectManagerPort': 45275, 'ObjectStoreSocketName': '/global/cscratch1/sd/bcp/ray/session_2022-03-23_21-32-27_439446_203970/sockets/plasma_store.2', 'RayletSocketName': '/global/cscratch1/sd/bcp/ray/session_2022-03-23_21-32-27_439446_203970/sockets/raylet.2', 'MetricsExportPort': 56169, 'alive': True, 'Resources': {'memory': 58060627968.0, 'object_store_memory': 40000000000.0, 'node:10.128.10.65': 1.0, 'CPU': 32.0}}, {'NodeID': '05e1e5ecc8ccc4d8fe195294368701ad33f95a5b4f1fd1d3bfd8eb70', 'Alive': True, 'NodeManagerAddress': '10.128.10.63', 'NodeManagerHostname': 'nid02602', 'NodeManagerPort': 42567, 'ObjectManagerPort': 42165, 'ObjectStoreSocketName': '/global/cscratch1/sd/bcp/ray/session_2022-03-23_21-32-27_439446_203970/sockets/plasma_store', 'RayletSocketName': '/global/cscratch1/sd/bcp/ray/session_2022-03-23_21-32-27_439446_203970/sockets/raylet', 'MetricsExportPort': 58104, 'alive': True, 'Resources': {'object_store_memory': 40000000000.0, 'CPU': 32.0, 'memory': 48032087245.0, 'node:10.128.10.63': 1.0}}]
+Using driver node ip as head node.
+worker node 10.128.10.64
+worker node 10.128.10.66
+worker node 10.128.10.67
+worker node 10.128.10.65
+head node 10.128.10.63
+total cpus 128.0
+device_grid (0, 0) Device(node_id=0, node_addr='node:10.128.10.64', device_type='cpu', device=1)
+device_grid (1, 0) Device(node_id=1, node_addr='node:10.128.10.66', device_type='cpu', device=1)
+device_grid (2, 0) Device(node_id=2, node_addr='node:10.128.10.67', device_type='cpu', device=1)
+device_grid (3, 0) Device(node_id=3, node_addr='node:10.128.10.65', device_type='cpu', device=1)
+2022-03-23 21:34:05,137	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,142	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,163	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,169	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,174	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,176	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,177	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,183	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,184	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,193	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,197	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,353	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,357	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,364	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,365	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,366	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,367	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,368	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,369	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,371	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,378	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,383	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,752	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,757	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,762	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,767	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,775	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,785	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,794	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,799	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,803	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,805	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:05,837	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:26,622	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:26,627	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:26,628	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:26,629	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:26,632	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:26,671	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:26,674	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:26,682	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:26,702	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:26,706	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:26,728	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:26,732	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:26,749	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:28,150	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:28,154	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:28,157	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:28,161	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:28,162	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:28,166	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:28,167	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:28,203	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:28,206	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:28,207	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:28,208	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:28,218	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:28,223	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:28,305	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:28,308	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:28,309	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:28,342	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+2022-03-23 21:34:28,358	WARNING worker.py:1326 -- This worker was asked to execute a function that it does not have registered. You may have to restart Ray.
+(4, 1)
+Waiting for raylet worker pool to finish initialization...
+Waiting done, running main()...
+Z's Grid shape: (128,) Z's Block shape: (7812500,)
+Time: 48.075087547302246
+another run
+Z's Grid shape: (128,) Z's Block shape: (7812500,)
+Time: 2.0407121181488037
+another run
+Z's Grid shape: (128,) Z's Block shape: (7812500,)
+Time: 3.532456636428833
+another run
+Z's Grid shape: (128,) Z's Block shape: (7812500,)
+Time: 2.1288578510284424
+another run
+Z's Grid shape: (128,) Z's Block shape: (7812500,)
+Time: 1.8059954643249512
